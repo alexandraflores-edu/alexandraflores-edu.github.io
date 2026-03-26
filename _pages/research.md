@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-# Overview
+## Overview
 
 My research ranges from basic to applied social psychology, with particular interest in social identity theory and its applications in public political life.
 
