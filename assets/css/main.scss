@@ -126,3 +126,36 @@ h2 {
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 0.3em;
 }
+
+/* --- SEAMLESS LAYOUT OVERRIDE --- */
+
+/* 1. Remove the white box and shadow from the main content */
+.page__content, 
+.archive, 
+.wrapper, 
+#main {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+}
+
+/* 2. Ensure the sidebar also loses its "box" feel */
+.sidebar {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* 3. Remove the line between the header and the content */
+.masthead {
+  border-bottom: none !important;
+  background-color: transparent !important;
+}
+
+/* 4. Fix padding so text doesn't hit the very edge of the screen */
+#main {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
