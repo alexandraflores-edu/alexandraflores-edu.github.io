@@ -359,3 +359,14 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
