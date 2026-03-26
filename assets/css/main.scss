@@ -42,53 +42,6 @@
     "vendor/font-awesome/brands"
 ;
 
-/* --- MY CUSTOM STYLES --- */
-
-body {
-  background-color: #ffffff !important; /* Change this to your desired background color */
-}
-
-.sidebar {
-  background-color: transparent !important; /* Makes sidebar blend into the background */
-}
-
-.page__content, .archive {
-  background-color: #ffffff !important; /* Keeps the main reading area clean white */
-  padding: 2em !important;
-  border-radius: 8px; /* Optional: gives the white content box soft corners */
-  box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Optional: adds a subtle lift */
-}
-
-/* --- ACCENT COLORS --- */
-
-/* 1. Your Name and Page Titles */
-.author__name, .page__title, h1, h2, h3 {
-  color: #222222 !important; /* Dark grey/black for readability */
-}
-
-/* 2. Links (The most important accent) */
-a {
-  color: #500082 !important; /* This is your primary accent color */
-  text-decoration: none;
-}
-
-a:hover {
-  color: #512698 !important; /* Darker version for when you hover over a link */
-  text-decoration: underline;
-}
-
-/* 3. The Sidebar "Follow" Button & Other Buttons */
-.btn--info, .btn--primary {
-  background-color: #500082 !important;
-  border-color: #500082 !important;
-  color: #fff !important;
-}
-
-/* 4. Horizontal Lines (Dividers) */
-hr {
-  border-top: 2px solid #500082 !important; /* Adds a pop of color to dividers */
-  opacity: 0.2;
-}
 /* --- SPECTRAL & JOST CUSTOM FONTS --- */
 
 /* 1. Spectral Bold for the "Identity" (Name and Page Title) */
@@ -158,4 +111,75 @@ h2 {
 #main {
   padding-left: 1em !important;
   padding-right: 1em !important;
+}
+
+/* --- DARK MODE COMPATIBLE COLORS --- */
+
+/* This applies when the site is in LIGHT mode (default) */
+/* --- MY CUSTOM STYLES --- */
+
+body {
+  background-color: #ffffff !important; /* Change this to your desired background color */
+}
+
+.sidebar {
+  background-color: transparent !important; /* Makes sidebar blend into the background */
+}
+
+.page__content, .archive {
+  background-color: #ffffff !important; /* Keeps the main reading area clean white */
+  padding: 2em !important;
+  border-radius: 8px; /* Optional: gives the white content box soft corners */
+  box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Optional: adds a subtle lift */
+}
+
+/* --- ACCENT COLORS --- */
+
+/* 1. Your Name and Page Titles */
+.author__name, .page__title, h1, h2, h3 {
+  color: #222222 !important; /* Dark grey/black for readability */
+}
+
+/* 2. Links (The most important accent) */
+a {
+  color: #500082 !important; /* This is your primary accent color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #512698 !important; /* Darker version for when you hover over a link */
+  text-decoration: underline;
+}
+
+/* 3. The Sidebar "Follow" Button & Other Buttons */
+.btn--info, .btn--primary {
+  background-color: #500082 !important;
+  border-color: #500082 !important;
+  color: #fff !important;
+}
+
+/* 4. Horizontal Lines (Dividers) */
+hr {
+  border-top: 2px solid #500082 !important; /* Adds a pop of color to dividers */
+  opacity: 0.2;
+}
+/* This applies ONLY when the DARK mode toggle is flipped */
+/* Note: If your theme uses a different class, it might be .dark-theme */
+.dark-theme, [data-theme='dark'] {
+  body {
+    background-color: #1d1f21 !important;
+    color: #eeeeee !important;
+  }
+  
+  h1, h2, h3, .author__name, .page__title {
+    color: #ffffff !important;
+  }
+
+  a {
+    color: #D4BFFF !important; /* A lighter purple that pops on dark backgrounds */
+  }
+
+  .page__content, .archive {
+    background-color: transparent !important;
+  }
 }
