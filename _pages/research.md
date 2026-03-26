@@ -9,7 +9,7 @@ author_profile: true
 
 My research ranges from basic to applied social psychology, with particular interest in social identity theory and its applications in public political life.
 
-My recent and on-going work covers four general themes:
+My recent and on-going work covers three general themes:
 * Causes and consequences of affective polarization
 * Understanding psychological mechanisms underlying humanitarian policy support
 * Social identities in the political context
