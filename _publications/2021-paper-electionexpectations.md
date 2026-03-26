@@ -1,6 +1,7 @@
 ---
 title: "When election expectations fail: Polarized perceptions of election legitimacy increase with accumulating evidence of election outcomes and with polarized media"
 collection: publications
+permalink: /publication/2021-paper-electionexpectations
 date: 2021-12-01
 venue: 'Plos ONE'
 paperurl: 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259473'
