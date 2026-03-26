@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "When election expectations fail: Polarized perceptions of election legitimacy increase with accumulating evidence of election outcomes and with polarized media"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
+permalink: /publication/2021-01-PlosONE-WhenElectionExpectationsFail
+excerpt: 'This paper is about polarized perceptions of election legitimacy following the 2020 election.'
+date: 2021
+venue: 'Plos ONE'
 slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://academicpages.github.io/files/paper1.pdf'
 bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Grant, M.D., Flores, A., Pedersen, E.J., Sherman, D.K., & Van Boven, L. (2021). &quot;When election expectations fail: Polarized perceptions of election legitimacy increase with accumulating evidence of election outcomes and with polarized media.&quot; <i>PlosONE</i>. 16(12).'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
