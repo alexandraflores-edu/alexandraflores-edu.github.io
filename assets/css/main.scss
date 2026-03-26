@@ -41,3 +41,80 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* --- MY CUSTOM STYLES --- */
+
+body {
+  background-color: #ffffff !important; /* Change this to your desired background color */
+}
+
+.sidebar {
+  background-color: transparent !important; /* Makes sidebar blend into the background */
+}
+
+.page__content, .archive {
+  background-color: #ffffff !important; /* Keeps the main reading area clean white */
+  padding: 2em !important;
+  border-radius: 8px; /* Optional: gives the white content box soft corners */
+  box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Optional: adds a subtle lift */
+}
+
+/* --- ACCENT COLORS --- */
+
+/* 1. Your Name and Page Titles */
+.author__name, .page__title, h1, h2, h3 {
+  color: #222222 !important; /* Dark grey/black for readability */
+}
+
+/* 2. Links (The most important accent) */
+a {
+  color: #500082 !important; /* This is your primary accent color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #512698 !important; /* Darker version for when you hover over a link */
+  text-decoration: underline;
+}
+
+/* 3. The Sidebar "Follow" Button & Other Buttons */
+.btn--info, .btn--primary {
+  background-color: #500082 !important;
+  border-color: #500082 !important;
+  color: #fff !important;
+}
+
+/* 4. Horizontal Lines (Dividers) */
+hr {
+  border-top: 2px solid #500082 !important; /* Adds a pop of color to dividers */
+  opacity: 0.2;
+}
+/* --- SPECTRAL & JOST CUSTOM FONTS --- */
+
+/* 1. Import Spectral (Bold 700) and Jost (Regular 400 + Bold 700) */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&family=Jost:wght@400;700&display=swap');
+
+/* 2. Body Text (Jost) */
+body {
+  font-family: 'Jost', sans-serif !important;
+  font-size: 19px !important; /* Jost looks best slightly larger */
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  -webkit-font-smoothing: antialiased; /* Makes Jost look extra crisp */
+}
+
+/* 3. Headers & Titles (Spectral Bold) */
+h1, h2, h3, h4, .author__name, .page__title, .archive__item-title {
+  font-family: 'Spectral', serif !important;
+  font-weight: 700 !important; /* This triggers the Bold version */
+  color: #222 !important;      /* Darker color makes the bold pop */
+  letter-spacing: -0.5px;
+}
+
+/* 4. Small UI Text (Nav links, Buttons) */
+.masthead__menu-item a, .btn, .footer__links {
+  font-family: 'Jost', sans-serif !important;
+  font-weight: 700 !important; /* Bold Jost for buttons looks great */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
