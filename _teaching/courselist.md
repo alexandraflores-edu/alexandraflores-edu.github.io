@@ -4,6 +4,7 @@ collection: teaching
 type: "Course List"
 permalink: /teaching/courselist
 venue: "Williams College, Psychology"
+date: "2023 - Present"
 ---
 
 ## Course Catalog Links
